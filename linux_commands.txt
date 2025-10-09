@@ -1,0 +1,8 @@
+#Author : Bhavana_System
+#Date : 09 oct 2025
+# Task : Execute and document each linux command
+
+1. grep : 
+   searches the specific word in the file
+   
+2.
