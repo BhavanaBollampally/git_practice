@@ -9,4 +9,8 @@
 2. awk :
    performs actions field by field with given delimeter with -F
    ==> awk with printing sepecific coloums,conditional printing
+  
+3. sort :
+   sorts alphabetically or increasing or decreasing order the given fields with delimeter with -t 
+   ==>sort with -n,-r,-t and operations with |
    
