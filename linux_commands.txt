@@ -6,4 +6,7 @@
    searches the specific word in the file
    ==>grep with -i,-n,-E,-v,-c,-A,-B and search in multiple files,piping(|)
    
-2.
+2. awk :
+   performs actions field by field with given delimeter with -F
+   ==> awk with printing sepecific coloums,conditional printing
+   
