@@ -4,5 +4,6 @@
 
 1. grep : 
    searches the specific word in the file
+   ==>grep with -i,-n,-E,-v,-c,-A,-B and search in multiple files,piping(|)
    
 2.
