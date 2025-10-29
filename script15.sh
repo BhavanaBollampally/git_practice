@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-#Author:Bhavana_Mobile
+#Author:Bhavana_System
 
 #Script 15 — Even / Odd Counter
 #Goal: Combine loop + condition + counter.
