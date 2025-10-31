@@ -16,10 +16,10 @@ read -p "Enter your file name: " file
 if [ -r $file ]
 then
 line_count=0
-while read line
+while read line #read the line in the file
 do
-((line_count++))
-done < "$file"
+((line_count++)) #increments the count for each line
+done < "$file" #gives files as input(input redirection)
 echo " There are $line_count line in $file"
 else
 echo "File not found!!!"
