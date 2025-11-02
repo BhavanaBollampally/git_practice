@@ -1,82 +1,96 @@
-#  Basic Logic Scripting – Day 1 (Scripts 1–10)
-
-These are beginner-level Bash scripts focused on logic-building and flow understanding.  
-Each script is short and meant for learning only — not production use.
-
----
-
-## Script 1 – Static Text
-**Goal:** Print simple information.  
-**Concepts:** echo, script structure.  
-**Logic:** Just prints name, date, and a line of text.
+#  Shell Scripting Drill — Scripts 1 to 25
+**Author:** Bhavana
+**Purpose:** Build strong logical reasoning and procedural fluency in Bash scripting through progressive, structured drills.
 
 ---
 
-## Script 2 – Variables & Substitution
-**Goal:** Learn to store and use variables.  
-**Concepts:** variable assignment, echo with variables.  
-**Logic:** Store name, course, and time → print them together.
+##  Overview
+This scripting drill consists of **25 progressively complex Bash scripts**, divided into two phases:
+
+- **Phase 1 (Scripts 1–10):** Logical foundation and syntax fluency.
+- **Phase 2 (Scripts 11–25):** Practical reasoning, file handling, pattern matching, and modular scripting.
+
+Each script strengthens a specific reasoning pattern — preparing for real-world DevOps automation scenarios.
 
 ---
 
-## Script 3 – User Input
-**Goal:** Accept user input and display it.  
-**Concepts:** read command, dynamic variables.  
-**Logic:** Ask user for a name → print greeting.
+##  Script Details
+
+### **Phase 1 — Foundational Logic (Scripts 1–10)**
+
+| Script | Title | Concept | Core Learning |
+|---------|--------|----------|----------------|
+| **1** | Print Basic Info | Echo and variable basics | Print user, date, and system info. |
+| **2** | Variable Recall | String variables and insertion | Use stored variables and print in different formats. |
+| **3** | User Input | Dynamic input with `read` | Accept input and echo it back dynamically. |
+| **4** | Age Checker | Basic `if` condition | Apply binary logic (true/false) with numeric comparison. |
+| **5** | File Existence Checker | `-f` file test operator | Check file presence using conditional logic. |
+| **6** | Simple Loop | `for` loop fundamentals | Iterate through fixed ranges and print values. |
+| **7** | Loop + Condition | Combined logic | Use conditionals inside loops to classify numbers. |
+| **8** | Exit Status Simulation | Success/failure logic | Use `exit 0` and `exit 1` to simulate script success. |
+| **9** | Counter Logic | Incrementing counters | Practice variable incrementation within loops. |
+| **10** | Menu Logic | Multi-path selection | Use branching with menu-style decision flow. |
+
+**Phase 1 Focus:** Syntax fluency, variable handling, and simple logical patterns.  
+**Outcome:** Comfort with Bash basics, conditions, and structured repetition.
 
 ---
 
-## Script 4 – If Condition
-**Goal:** First decision-based script.  
-**Concepts:** if / else structure, comparison.  
-**Logic:** Ask for age → print “Adult” or “Minor”.
+### **Phase 2 — Applied Logic & Modular Scripting (Scripts 11–25)**
+
+| Script | Title | Concept | Core Learning |
+|---------|--------|----------|----------------|
+| **11** | Compare Two Numbers | Relational operators (`-gt`, `-lt`, `-eq`) | Compare integers and determine greater/equal. |
+| **12** | Largest of Three Numbers | Nested `if` | Handle multi-layered comparisons. |
+| **13** | Grade Evaluator | `elif` chains | Map numeric ranges to graded outcomes. |
+| **14** | Simple Calculator | Arithmetic operations | Perform user-selected math using branching logic. |
+| **15** | Even / Odd Counter | Loop + modulus | Classify and count even and odd values. |
+| **16** | Positive / Negative / Zero Checker | Multi-branch decision | Identify sign-based conditions. |
+| **17** | Factorial Calculator | Iterative multiplication | Strengthen arithmetic loop reasoning. |
+| **18** | File Line Counter | File I/O with `while read` | Count lines dynamically from a file. |
+| **19** | Vowel Counter | Character parsing | Loop through string characters and count vowels. |
+| **20** | Reverse Number | Arithmetic reversal logic | Practice number manipulation and modular arithmetic. |
+| **21** | File Line Reader | Stream-based looping | Read lines continuously until EOF. |
+| **22** | Word Searcher | Exit status check with `grep` | True/false checking based on command success. |
+| **23** | Log Analyzer Prototype | Compound conditions (`&&`, `||`) | Multi-condition decision-making for alerting. |
+| **24** | Word Frequency Counter | Pattern detection and accumulation | Count word occurrences in a file with loops. |
+| **25** | Function-based File Checker | Functions + arguments | Modularize logic and reuse via parameterized functions. |
+
+**Phase 2 Focus:** File handling, condition chaining, pattern recognition, and function modularization.  
+**Outcome:** Transition from procedural logic to automation-ready scripting.
 
 ---
 
-## Script 5 – File Existence Check
-**Goal:** Verify if a file exists.  
-**Concepts:** file test operators (-f, -e).  
-**Logic:** Ask for filename → check → print “Found” or “Not found”.
+##  Core Concepts Covered
+
+| Area | Concepts Practiced |
+|------|--------------------|
+| **Conditionals** | `if`, `elif`, `else`, logical operators (`&&`, `||`) |
+| **Loops** | `for`, `while`, nested iteration |
+| **Arithmetic** | `+`, `-`, `*`, `/`, `%`, factorial and reversal logic |
+| **File I/O** | Reading, checking, and validating file contents |
+| **Pattern Matching** | Using `grep`, `[[ ]]`, and string scanning |
+| **Functions** | Modular logic using `function_name() { ... }` and arguments |
+| **Exit Status & Flow Control** | `exit`, `return`, and command exit codes |
+| **Debugging & Error Handling** | Logical tracing, safe conditions, readable output |
 
 ---
 
-## Script 6 – Simple Loop
-**Goal:** Learn repetition logic.  
-**Concepts:** for loop, sequence.  
-**Logic:** Print numbers 1 to 5 with message per loop.
+##  Learning Outcomes
+By completing Scripts 1–25:
+
+- Achieved **line-by-line reasoning fluency** — from conditions → loops → modular code.  
+- Developed **confidence in handling input, files, and logic flow.**  
+- Built a **procedural thinking foundation** crucial for DevOps scripting (automation, monitoring, validation).  
+- Learned **clean script structure and commenting style.**
 
 ---
 
-## Script 7 – Loop + Condition
-**Goal:** Combine loops and decisions.  
-**Concepts:** nested logic.  
-**Logic:** Loop 1–10 → print “Even” or “Odd”.
+##  Completion Summary
+- All **25 scripts** executed and tested successfully.  
+- Logical correctness and readability verified.  
+- Code style: clean indentation, functional naming, modular logic.  
+- Drill concludes the **Logic Conditioning Phase** — solid procedural base achieved.
 
 ---
-
-## Script 8 – Exit Status
-**Goal:** Introduce success/failure logic.  
-**Concepts:** exit codes, conditional exits.  
-**Logic:** Ask number → if >100 exit with 1, else exit 0.
-
----
-
-## Script 9 – Counter Logic
-**Goal:** Practice variable incrementing.  
-**Concepts:** arithmetic in Bash, loop counter.  
-**Logic:** Start count=0 → loop 5 times → print total loops done.
-
----
-
-## Script 10 – Menu Logic
-**Goal:** Learn branching using if/elif/else.  
-**Concepts:** decision trees, user choice.  
-**Logic:** Menu (1=Date, 2=List files, 3=Exit) → perform action based on choice.
-
----
-
-###  Notes
-- All scripts are intentionally simple to focus on *logic flow*.
-- No external tools or files required.
-- These scripts form your **Foundation Layer** — later ones will add logg
 
