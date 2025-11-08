@@ -1,0 +1,52 @@
+EmployeeID,Name,Role,Department,Salary
+101,Arun,DevOps Engineer,IT,90000
+102,Bhavana,Cloud Engineer,IT,95000
+103,John,Developer,Software,85000
+104,Meera,QA Analyst,Testing,70000
+105,Sanjay,Project Manager,Management,120000
+106,Rekha,System Admin,IT,78000
+107,Ravi,Security Engineer,Cybersecurity,110000
+108,Divya,UI/UX Designer,Design,82000
+109,Vishal,Data Analyst,Analytics,88000
+110,Harika,HR Specialist,HR,65000
+111,Kunal,Automation Tester,Testing,72000
+112,Pratyush,Full Stack Developer,Software,98000
+113,Nidhi,Cloud Architect,IT,150000
+114,Ankit,Network Engineer,Networking,87000
+115,Shravani,Product Owner,Product,130000
+116,Aditya,Technical Writer,Documentation,60000
+117,Michael,DBA Administrator,Database,105000
+118,Sarah,Financial Analyst,Finance,112000
+119,Tom,DevOps Engineer,IT,93000
+120,Kiran,Cloud Support Engineer,Support,76000
+121,Neha,Project Coordinator,Management,68000
+122,Ajay,Software Engineer Trainee,Software,45000
+123,Mahesh,Build Engineer,DevOps,92000
+124,Priya,Data Scientist,Analytics,140000
+125,Rohit,Kubernetes Engineer,IT,125000
+126,Shiva,Platform Engineer,Infrastructure,118000
+127,Ayesha,Graphic Designer,Design,70000
+128,Sai,Documentation Lead,Documentation,88000
+129,Varun,UI Developer,Design,86000
+130,Sneha,QA Automation Engineer,Testing,75000
+131,Rithvik,Business Analyst,Product,97000
+132,Harsha,IT Support Specialist,Support,52000
+133,Laya,Release Manager,DevOps,128000
+134,Deepak,ML Engineer,Analytics,142000
+135,Akhil,SRE Engineer,Infrastructure,138000
+136,Pooja,Frontend Developer,Software,90000
+137,Ram,Backend Developer,Software,92000
+138,Shruthi,Cloud Migration Consultant,IT,144000
+139,Imran,ETL Developer,Analytics,99000
+140,Naveen,Database Developer,Database,91000
+141,Alan,Vulnerability Analyst,Cybersecurity,108000
+142,Keerthi,Internal Recruiter,HR,70000
+143,Devika,Accounts Manager,Finance,99000
+144,Yeshwanth,Load Testing Engineer,Testing,90000
+145,Karthik,Monitoring Engineer,DevOps,95000
+146,Tejas,Terraform Engineer,Infrastructure,120000
+147,Darshan,Shell Scripting Specialist,IT,105000
+148,Charan,Python Automation Developer,Software,98000
+149,Nayana,Scrum Master,Product,118000
+150,Rajesh,VP Engineering,Leadership,200000
+
